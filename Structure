@@ -1,0 +1,88 @@
+makau-live/
+│
+├── index.php
+├── .env
+├── README.md
+│
+├── core/
+│   ├── db.php
+│   ├── helper.php
+│   ├── engine.php
+│   ├── ai_engine.php
+│   ├── fraud.php
+│   ├── auth.php
+│   ├── audit.php
+│   ├── finance.php
+│
+├── modules/
+│   ├── user/
+│   │   ├── login.php
+│   │   ├── register.php
+│   │   ├── dashboard.php
+│   │   ├── simpan_bet.php
+│   │   ├── logout.php
+│   │   ├── change_password.php
+│   │
+│   ├── betting/
+│   │   ├── form.php
+│   │   ├── validate.php
+│   │
+│   ├── payout/
+│   │   ├── list.php
+│   │   ├── confirm.php
+│   │
+│   ├── reporting/
+│   │   ├── history.php
+│   │   ├── laporan_sesi.php
+│   │   ├── finance_report.php
+│   │
+│   ├── audit/
+│   │   ├── log_view.php
+│   │
+│
+├── admin/
+│   ├── login.php
+│   ├── dashboard.php
+│   ├── dashboard_ai.php
+│   ├── finance.php
+│   ├── heatmap.php
+│   ├── fraud_monitor.php
+│   ├── publish.php
+│   ├── settings.php
+│
+├── superadmin/
+│   ├── branches.php
+│   ├── users.php
+│   ├── roles.php
+│   ├── audit_log.php
+│   ├── system_config.php
+│
+├── api/
+│   ├── place_bet.php
+│   ├── get_result.php
+│   ├── auth.php
+│
+├── system/
+│   ├── scheduler_close.php
+│   ├── scheduler_publish.php
+│   ├── scheduler_wa.php
+│   ├── scheduler_rekap.php
+│   ├── wa_sender.php
+│
+├── assets/
+│   ├── css/
+│   │   ├── style.css
+│   │   ├── admin.css
+│   │
+│   ├── js/
+│   │   ├── app.js
+│   │
+│   ├── img/
+│   │   ├── logo.png
+│
+├── logs/
+│   ├── app.log
+│   ├── error.log
+│
+└── backups/
+    ├── db/
