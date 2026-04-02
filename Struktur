@@ -1,0 +1,32 @@
+makau/
+│
+├── core/
+│   ├── db.php
+│   ├── helper.php
+│   ├── engine.php
+│   ├── scheduler.php
+│
+├── user/
+│   ├── index.php
+│   ├── auth.php
+│   ├── user.php
+│   ├── simpan.php
+│   ├── logout.php
+│   ├── change_password.php
+│
+├── admin/
+│   ├── login_admin.php
+│   ├── admin.php
+│   ├── admin_payout.php
+│   ├── proses.php
+│   ├── lunas.php
+│
+├── system/
+│   ├── wa_sender.php
+│   ├── wa_notif_scheduler.php
+│   ├── laporan_sesi.php
+│
+├── assets/
+│   ├── logo.png   ← (pakai logo kamu)
+│
+└── index.php
